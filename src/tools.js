@@ -1,5 +1,5 @@
 
-export const SITE={name:'PakCalc Hub',url:'https://etea-calculator.vercel.app'};
+export const SITE={name:'PakCalc Hub',url:'https://www.gpa-calculator.space'};
 export const CATS={
  'Admissions & Jobs':{tile:'bg-rose-100 text-rose-600',grad:'from-rose-500 to-orange-400'},
  'Education':{tile:'bg-emerald-100 text-emerald-600',grad:'from-emerald-600 to-teal-500'},
