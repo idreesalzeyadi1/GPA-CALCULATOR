@@ -7,6 +7,8 @@ const __dirname = path.dirname(__filename);
 const projectRoot = path.resolve(__dirname, '..');
 const distDir = path.join(projectRoot, 'dist');
 const pagesDir = path.join(projectRoot, 'src', 'pages');
+
+// Updated to your exact custom production domain
 const siteUrl = 'https://www.gpa-calculator.space';
 
 const toKebabCase = (value) =>
@@ -45,4 +47,4 @@ ${uniqueRoutes
 
 fs.mkdirSync(distDir, { recursive: true });
 fs.writeFileSync(path.join(distDir, 'sitemap.xml'), xml, 'utf8');
-console.log(`sitemap ok ${uniqueRoutes.length} urls`);
+console.log(`sitemap ok ${uniqueRoutes.length} urls for ${siteUrl}`);
