@@ -1,0 +1,3 @@
+import React from 'react';import Page from '../components/Page.jsx';import Calc from '../calculators/ProfitMargin.jsx';import {BarChart3} from 'lucide-react';
+export const meta={slug:'profit-margin-calculator',name:"Profit Margin Calculator",icon:BarChart3,cat:"Finance",title:"Profit Margin Calculator \u2013 Profit, Margin & Markup",desc:"Free profit margin calculator for shops and online sellers.",intro:"Enter cost and selling price to see profit, margin and markup percentage.",faq:[["Margin vs markup?","Margin is profit / selling price. Markup is profit / cost."]]};
+export default function ProfitMarginPage(){return <Page meta={meta}><Calc/></Page>;}

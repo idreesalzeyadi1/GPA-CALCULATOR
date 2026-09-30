@@ -1,0 +1,3 @@
+import React from 'react';import Page from '../components/Page.jsx';import Calc from '../calculators/Kppsc.jsx';import {Landmark} from 'lucide-react';
+export const meta={slug:'kppsc-fpsc-score-calculator',name:"KPPSC / FPSC Score Calculator",icon:Landmark,cat:"Admissions & Jobs",title:"KPPSC / FPSC Score Calculator \u2013 SST, Test & Bonus Marks",desc:"Free KPPSC academic score calculator with Hifz, MPhil and PhD bonus.",intro:"Enter Matric, Inter, Bachelor, Master, B.Ed and test marks (out of 45) to estimate your KPPSC merit score.",faq:[["Which bonus marks are included?","Hifz +3, MPhil +1, PhD +2 and topper +1 or +2. Check the official advertisement for the exact formula."]]};
+export default function KppscPage(){return <Page meta={meta}><Calc/></Page>;}

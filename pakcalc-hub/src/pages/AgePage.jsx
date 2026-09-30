@@ -1,0 +1,3 @@
+import React from 'react';import Page from '../components/Page.jsx';import Calc from '../calculators/Age.jsx';import {CalendarDays} from 'lucide-react';
+export const meta={slug:'age-calculator',name:"Age & Birth Date Calculator",icon:CalendarDays,cat:"Utility",title:"Age & Birth Date Calculator \u2013 Exact Age in Years, Months & Days",desc:"Free age calculator with exact age and next birthday.",intro:"Get your exact age from date of birth, useful for job and admission eligibility.",faq:[["How is age calculated?","Difference between the chosen date and date of birth."]]};
+export default function AgePage(){return <Page meta={meta}><Calc/></Page>;}

@@ -1,0 +1,3 @@
+import React from 'react';import Page from '../components/Page.jsx';import Calc from '../calculators/Area.jsx';import {Square} from 'lucide-react';
+export const meta={slug:'area-converter',name:"Area Converter (Marla, Kanal)",icon:Square,cat:"Converters",title:"Area Converter (Marla, Kanal) \u2013 Marla, Kanal, Acre, Square Feet",desc:"Convert marla, kanal, square feet, square yards and acres.",intro:"Pakistani land units made easy: 1 marla = 272.25 sq ft and 1 kanal = 20 marla.",faq:[["1 kanal is how many marla?","20 marla."]]};
+export default function AreaPage(){return <Page meta={meta}><Calc/></Page>;}

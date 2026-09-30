@@ -1,0 +1,3 @@
+import React from 'react';import Page from '../components/Page.jsx';import Calc from '../calculators/Increment.jsx';import {ArrowUpRight} from 'lucide-react';
+export const meta={slug:'salary-increment-calculator',name:"Salary Increment Calculator",icon:ArrowUpRight,cat:"Finance",title:"Salary Increment Calculator \u2013 New Salary After % Raise",desc:"Free salary increment calculator with new monthly and yearly salary in PKR.",intro:"Enter current salary and increment percentage to see your new salary.",faq:[["How is salary increment calculated?","New salary = salary x (1 + percent / 100)."]]};
+export default function IncrementPage(){return <Page meta={meta}><Calc/></Page>;}

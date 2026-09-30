@@ -1,0 +1,3 @@
+import React from 'react';import Page from '../components/Page.jsx';import Calc from '../calculators/MarksConverter.jsx';import {Percent} from 'lucide-react';
+export const meta={slug:'gpa-marks-percentage-converter',name:"GPA & Marks % Converter",icon:Percent,cat:"Education",title:"GPA & Marks % Converter \u2013 Marks to %, GPA to %, % to GPA",desc:"Free converter for marks, percentage and GPA (4.0 scale).",intro:"Convert marks, GPA and percentage in one place using a simple linear 4.0 scale. Universities may use their own tables.",faq:[["How to convert GPA to percentage?","GPA / 4 x 100 on a simple linear scale."]]};
+export default function MarksConverterPage(){return <Page meta={meta}><Calc/></Page>;}

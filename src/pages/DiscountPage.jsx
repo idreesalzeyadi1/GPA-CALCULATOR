@@ -1,0 +1,3 @@
+import React from 'react';import Page from '../components/Page.jsx';import Calc from '../calculators/Discount.jsx';import {Tag} from 'lucide-react';
+export const meta={slug:'discount-calculator',name:"Discount / Sale Calculator",icon:Tag,cat:"Finance",title:"Discount / Sale Calculator \u2013 Final Price After Sale Percentage",desc:"Free discount calculator for final price and amount saved.",intro:"Quickly find the sale price and how much you save.",faq:[["How to calculate a discount?","Final price = price - (price x discount / 100)."]]};
+export default function DiscountPage(){return <Page meta={meta}><Calc/></Page>;}

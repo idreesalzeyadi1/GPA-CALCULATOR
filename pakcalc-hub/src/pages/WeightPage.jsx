@@ -1,0 +1,3 @@
+import React from 'react';import Page from '../components/Page.jsx';import Calc from '../calculators/Weight.jsx';import {Scale} from 'lucide-react';
+export const meta={slug:'weight-converter',name:"Weight Converter (Tola, Seer, Maund)",icon:Scale,cat:"Converters",title:"Weight Converter (Tola, Seer, Maund) \u2013 Tola, Seer, Maund, KG, Pound",desc:"Convert tola, seer, maund, kg, gram, pound and ounce.",intro:"Convert between metric and traditional Pakistani weights.",faq:[["1 tola in grams?","About 11.66 grams."]]};
+export default function WeightPage(){return <Page meta={meta}><Calc/></Page>;}

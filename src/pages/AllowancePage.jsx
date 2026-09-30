@@ -1,0 +1,3 @@
+import React from 'react';import Page from '../components/Page.jsx';import Calc from '../calculators/Allowance.jsx';import {Banknote} from 'lucide-react';
+export const meta={slug:'salary-allowance-calculator',name:"Salary & Allowance Calculator",icon:Banknote,cat:"Finance",title:"Salary & Allowance Calculator \u2013 Gross Salary with HRA & Medical",desc:"Free gross salary calculator with house rent and medical allowance.",intro:"Add house rent and medical allowance percentages to basic pay to get gross salary.",faq:[["What is gross salary?","Basic pay plus all allowances before deductions."]]};
+export default function AllowancePage(){return <Page meta={meta}><Calc/></Page>;}

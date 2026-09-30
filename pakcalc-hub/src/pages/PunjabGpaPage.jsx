@@ -1,0 +1,3 @@
+import React from 'react';import Page from '../components/Page.jsx';import Calc from '../calculators/PunjabGpa.jsx';import {Building2} from 'lucide-react';
+export const meta={slug:'punjab-university-gpa-calculator',name:"Punjab University (Lahore) GPA Calculator",icon:Building2,cat:"Education",title:"Punjab University (Lahore) GPA Calculator \u2013 PU Lahore Semester GPA",desc:"Free Punjab University Lahore GPA calculator for semester results.",intro:"Add courses, grades and credit hours to calculate your Punjab University GPA on the 4.0 scale. Confirm grade points with your department.",faq:[["How to calculate PU Lahore GPA?","GPA = total quality points / total credit hours."]]};
+export default function PunjabGpaPage(){return <Page meta={meta}><Calc/></Page>;}

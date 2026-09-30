@@ -1,0 +1,3 @@
+import React from 'react';import Page from '../components/Page.jsx';import Calc from '../calculators/Gold.jsx';import {Coins} from 'lucide-react';
+export const meta={slug:'gold-tola-calculator',name:"Gold Tola Calculator",icon:Coins,cat:"Converters",title:"Gold Tola Calculator \u2013 Tola, Masha to PKR Value",desc:"Free gold calculator for tola and masha value in PKR.",intro:"Enter tola, masha and today's rate per tola to see the value and weight in grams. 1 tola = 12 masha = 11.66 grams.",faq:[["1 tola is how many masha?","12 masha."]]};
+export default function GoldPage(){return <Page meta={meta}><Calc/></Page>;}

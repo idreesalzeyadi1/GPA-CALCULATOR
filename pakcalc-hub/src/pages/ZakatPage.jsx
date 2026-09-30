@@ -1,0 +1,3 @@
+import React from 'react';import Page from '../components/Page.jsx';import Calc from '../calculators/Zakat.jsx';import {HandCoins} from 'lucide-react';
+export const meta={slug:'zakat-calculator',name:"Zakat Calculator",icon:HandCoins,cat:"Finance",title:"Zakat Calculator \u2013 2.5% Zakat on Cash, Gold & Business",desc:"Free zakat calculator for cash, gold, silver, investments and business stock.",intro:"Zakat is 2.5% of eligible wealth held for a lunar year above the nisab. Enter the current nisab value and your assets in PKR.",faq:[["What is the zakat rate?","2.5% of net zakatable wealth. Confirm details with a scholar."]]};
+export default function ZakatPage(){return <Page meta={meta}><Calc/></Page>;}

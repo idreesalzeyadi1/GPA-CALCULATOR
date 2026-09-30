@@ -1,0 +1,3 @@
+import React from 'react';import Page from '../components/Page.jsx';import Calc from '../calculators/Temperature.jsx';import {Thermometer} from 'lucide-react';
+export const meta={slug:'temperature-converter',name:"Temperature Converter",icon:Thermometer,cat:"Converters",title:"Temperature Converter \u2013 Celsius, Fahrenheit, Kelvin",desc:"Convert Celsius, Fahrenheit and Kelvin instantly.",intro:"Convert temperature between the three common scales.",faq:[["Celsius to Fahrenheit formula?","F = C x 9/5 + 32."]]};
+export default function TemperaturePage(){return <Page meta={meta}><Calc/></Page>;}
