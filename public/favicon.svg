@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="PakCalc Hub favicon">
+  <defs>
+    <linearGradient id="bg" x1="0%" x2="100%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#0cae9a"/>
+      <stop offset="45%" stop-color="#0a9d90"/>
+      <stop offset="100%" stop-color="#0a7d6a"/>
+    </linearGradient>
+    <linearGradient id="swirl" x1="0%" x2="100%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#9BE7C9"/>
+      <stop offset="100%" stop-color="#42D9A4"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="512" height="512" rx="118" fill="url(#bg)"/>
+
+  <g transform="translate(62 38)">
+    <path d="M146 80c-50 0-92 42-92 92v120c0 50 42 92 92 92h170c50 0 92-42 92-92V172c0-50-42-92-92-92H146zm22 52h130c31 0 57 26 57 57v144c0 31-26 57-57 57H168c-31 0-57-26-57-57V189c0-31 26-57 57-57z" fill="#F3F5F4"/>
+
+    <rect x="164" y="168" width="178" height="138" rx="24" fill="#F3F5F4"/>
+    <g fill="#0d9488">
+      <circle cx="204" cy="210" r="14"/>
+      <circle cx="246" cy="210" r="14"/>
+      <circle cx="288" cy="210" r="14"/>
+      <circle cx="204" cy="252" r="14"/>
+      <circle cx="246" cy="252" r="14"/>
+      <circle cx="288" cy="252" r="14"/>
+      <circle cx="204" cy="294" r="14"/>
+      <circle cx="246" cy="294" r="14"/>
+      <circle cx="288" cy="294" r="14"/>
+    </g>
+
+    <rect x="82" y="120" width="44" height="214" rx="18" fill="#F3F5F4"/>
+    <rect x="110" y="110" width="64" height="72" rx="18" fill="#F3F5F4"/>
+
+    <g transform="translate(245 0)">
+      <path d="M15 54c-26 0-52 20-52 52v138c0 74 60 134 134 134h68c24 0 38-22 26-42l-30-48c-12-20-35-31-59-31H96v-48h75c23 0 43-11 55-29l25-46c16-28-8-62-41-62H15z" fill="#F3F5F4"/>
+      <path d="M190 126c33 0 57 28 57 60v96c0 45-38 82-82 82H103c-15 0-23-17-15-28l17-26c9-14 26-23 44-23h54c12 0 21-9 21-21v-62c0-11-9-20-20-20h-70l-18 14c-12 9-20 23-20 39v74H59v-106c0-40 32-72 72-72h59z" fill="url(#swirl)" opacity="0.92"/>
+    </g>
+  </g>
+</svg>
