@@ -1,3 +1,0 @@
-import React from 'react';import Page from '../components/Page.jsx';import Calc from '../calculators/UafGpa.jsx';import {Award} from 'lucide-react';
-export const meta={slug:'uaf-gpa-calculator',name:"UAF GPA Calculator",icon:Award,cat:"Education",title:"UAF GPA Calculator \u2013 University of Agriculture Faisalabad",desc:"Free UAF GPA calculator for semester results.",intro:"Add your UAF subjects, grades and credit hours to calculate your semester GPA on the 4.0 scale. Verify grade cut-offs with the UAF handbook.",faq:[["How is UAF GPA calculated?","Weighted average of grade points by credit hours."]]};
-export default function UafGpaPage(){return <Page meta={meta}><Calc/></Page>;}

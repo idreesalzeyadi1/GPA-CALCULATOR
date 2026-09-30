@@ -1,3 +1,0 @@
-import React from 'react';import Page from '../components/Page.jsx';import Calc from '../calculators/Budget.jsx';import {Wallet} from 'lucide-react';
-export const meta={slug:'budget-calculator',name:"Monthly Budget Calculator",icon:Wallet,cat:"Finance",title:"Monthly Budget Calculator \u2013 Income vs Expenses Balance",desc:"Free monthly budget calculator for rent, food, bills and savings.",intro:"Enter income and expenses to see your remaining monthly balance.",faq:[["How to budget monthly?","Subtract total expenses from income and save part of what remains."]]};
-export default function BudgetPage(){return <Page meta={meta}><Calc/></Page>;}

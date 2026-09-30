@@ -1,3 +1,0 @@
-import React from 'react';import Page from '../components/Page.jsx';import Calc from '../calculators/NustGpa.jsx';import {Atom} from 'lucide-react';
-export const meta={slug:'nust-gpa-calculator',name:"NUST GPA Calculator",icon:Atom,cat:"Education",title:"NUST GPA Calculator \u2013 NUST Semester GPA",desc:"Free NUST GPA calculator using the A, B+, B, C+ 4.0 grading scale.",intro:"Add courses, choose the grade and enter credit hours to get your NUST semester GPA. Check the latest NUST grading policy.",faq:[["What is the maximum NUST GPA?","4.00."]]};
-export default function NustGpaPage(){return <Page meta={meta}><Calc/></Page>;}

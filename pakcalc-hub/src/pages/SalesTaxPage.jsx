@@ -1,3 +1,0 @@
-import React from 'react';import Page from '../components/Page.jsx';import Calc from '../calculators/SalesTax.jsx';import {Receipt} from 'lucide-react';
-export const meta={slug:'sales-tax-calculator',name:"Sales Tax (GST) Calculator",icon:Receipt,cat:"Finance",title:"Sales Tax (GST) Calculator \u2013 Add Tax to Any Amount",desc:"Free sales tax calculator to add GST to an amount.",intro:"Enter the amount and tax rate (editable) to see tax and total. Confirm the applicable rate for your item.",faq:[["How to add sales tax?","Total = amount x (1 + rate / 100)."]]};
-export default function SalesTaxPage(){return <Page meta={meta}><Calc/></Page>;}

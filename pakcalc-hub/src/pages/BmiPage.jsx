@@ -1,3 +1,0 @@
-import React from 'react';import Page from '../components/Page.jsx';import Calc from '../calculators/Bmi.jsx';import {Activity} from 'lucide-react';
-export const meta={slug:'bmi-calculator',name:"BMI Calculator",icon:Activity,cat:"Utility",title:"BMI Calculator \u2013 Body Mass Index Calculator",desc:"Free BMI calculator from weight and height.",intro:"Enter weight in kg and height in cm to see your BMI and category. It is a general guide, not medical advice.",faq:[["What is a healthy BMI?","18.5 to 24.9 is considered normal by WHO."]]};
-export default function BmiPage(){return <Page meta={meta}><Calc/></Page>;}

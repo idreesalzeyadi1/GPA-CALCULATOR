@@ -1,3 +1,0 @@
-import React from 'react';import Page from '../components/Page.jsx';import Calc from '../calculators/Gpa.jsx';import {BookOpen} from 'lucide-react';
-export const meta={slug:'gpa-calculator',name:"GPA Calculator",icon:BookOpen,cat:"Education",title:"GPA Calculator \u2013 Semester GPA for Pakistani Universities",desc:"Free universal GPA calculator on the 4.0 scale.",intro:"Add subjects, choose grades, enter credit hours and get your GPA instantly.",faq:[["What is a good GPA?","3.0+ is good and 3.5+ is excellent for scholarships."]]};
-export default function GpaPage(){return <Page meta={meta}><Calc/></Page>;}

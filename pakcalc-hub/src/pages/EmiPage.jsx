@@ -1,3 +1,0 @@
-import React from 'react';import Page from '../components/Page.jsx';import Calc from '../calculators/Emi.jsx';import {CreditCard} from 'lucide-react';
-export const meta={slug:'emi-calculator',name:"Loan EMI Calculator",icon:CreditCard,cat:"Finance",title:"Loan EMI Calculator \u2013 Monthly Installment, Total Interest",desc:"Free loan EMI calculator for monthly installment and total interest.",intro:"Enter loan amount, annual interest rate and months to see your monthly installment.",faq:[["How is EMI calculated?","EMI = P x r x (1+r)^n / ((1+r)^n - 1), where r is the monthly rate."]]};
-export default function EmiPage(){return <Page meta={meta}><Calc/></Page>;}

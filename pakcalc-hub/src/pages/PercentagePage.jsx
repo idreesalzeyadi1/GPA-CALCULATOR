@@ -1,3 +1,0 @@
-import React from 'react';import Page from '../components/Page.jsx';import Calc from '../calculators/Percentage.jsx';import {Divide} from 'lucide-react';
-export const meta={slug:'percentage-calculator',name:"Percentage Calculator",icon:Divide,cat:"Education",title:"Percentage Calculator \u2013 Marks Percentage & Percent of a Number",desc:"Free percentage calculator for marks and X% of a number.",intro:"Find your marks percentage or any percentage of a number instantly.",faq:[["How to find X% of Y?","Multiply Y by X and divide by 100."]]};
-export default function PercentagePage(){return <Page meta={meta}><Calc/></Page>;}

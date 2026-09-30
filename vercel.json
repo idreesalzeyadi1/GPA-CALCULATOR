@@ -1,27 +1,9 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
-  "services": {
-    "app": {
-      "root": ".",
-      "framework": "vite"
-    },
-    "pakcalc-hub": {
-      "root": "pakcalc-hub",
-      "framework": "vite"
-    }
-  },
   "rewrites": [
     {
-      "source": "/pakcalc-hub/(.*)",
-      "destination": {
-        "service": "pakcalc-hub"
-      }
-    },
-    {
       "source": "/(.*)",
-      "destination": {
-        "service": "app"
-      }
+      "destination": "/index.html"
     }
   ]
 }

@@ -1,3 +1,0 @@
-import React from 'react';import Page from '../components/Page.jsx';import Calc from '../calculators/Cgpa.jsx';import {Calculator} from 'lucide-react';
-export const meta={slug:'cgpa-calculator',name:"CGPA Calculator",icon:Calculator,cat:"Education",title:"CGPA Calculator \u2013 Cumulative GPA from Semester GPAs",desc:"Free CGPA calculator from semester GPAs and credit hours.",intro:"CGPA is the weighted average of all semester GPAs. Enter each semester GPA with its credit hours.",faq:[["How to calculate CGPA?","CGPA = sum of (semester GPA x credits) / total credits."]]};
-export default function CgpaPage(){return <Page meta={meta}><Calc/></Page>;}

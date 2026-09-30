@@ -1,3 +1,0 @@
-import React from 'react';import Page from '../components/Page.jsx';import Calc from '../calculators/Pension.jsx';import {PiggyBank} from 'lucide-react';
-export const meta={slug:'pension-calculator',name:"Pension Calculator",icon:PiggyBank,cat:"Admissions & Jobs",title:"Pension Calculator \u2013 Estimate Government Pension in Pakistan",desc:"Free pension calculator to estimate monthly pension from last basic pay and service years.",intro:"Enter your last basic pay and years of service for a quick pension estimate. Actual pension follows government rules and commutation.",faq:[["Is this pension exact?","No, it is an estimate. Confirm with your department or AG office."]]};
-export default function PensionPage(){return <Page meta={meta}><Calc/></Page>;}

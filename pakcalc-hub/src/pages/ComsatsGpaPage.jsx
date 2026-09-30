@@ -1,3 +1,0 @@
-import React from 'react';import Page from '../components/Page.jsx';import Calc from '../calculators/ComsatsGpa.jsx';import {GraduationCap} from 'lucide-react';
-export const meta={slug:'comsats-gpa-calculator',name:"COMSATS GPA Calculator",icon:GraduationCap,cat:"Education",title:"COMSATS GPA Calculator \u2013 Semester GPA & Grade Points",desc:"Free COMSATS GPA calculator using the CUI 4.0 grade-point scale.",intro:"Select the grade for each course, enter credit hours, and get your semester GPA. Quality points are grade points multiplied by credit hours.",faq:[["How is COMSATS GPA calculated?","GPA = sum of (grade points x credit hours) / total credit hours."]]};
-export default function ComsatsGpaPage(){return <Page meta={meta}><Calc/></Page>;}
