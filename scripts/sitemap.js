@@ -26,8 +26,10 @@ const routes = ['/'];
 for (const file of pageFiles) {
   if (!file.endsWith('Page.jsx')) continue;
   if (file === 'HomePage.jsx' || file === 'ToolPage.jsx') continue;
-  const routeName = file.replace(/Page\.jsx$/, '');
-  routes.push(`/${toKebabCase(routeName)}`);
+  const source = fs.readFileSync(path.join(pagesDir, file), 'utf8');
+  const slug = source.match(/\bslug:\s*['"]([^'"]+)['"]/);
+  if (!slug) throw new Error(`Missing page slug in ${file}`);
+  routes.push(`/${slug[1]}`);
 }
 
 const uniqueRoutes = [...new Set(routes)];
